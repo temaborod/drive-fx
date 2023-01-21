@@ -263,7 +263,7 @@ public class AuthController extends Application {
 
                 if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.BROWSE)) {
                     try {
-                        Desktop.getDesktop().browse(new URI("https://t.me/japanverblud"));
+                        Desktop.getDesktop().browse(new URI("https://t.me/tyomiiio"));
                     } catch (IOException | URISyntaxException e) {
                         throw new RuntimeException(e);
                     }
